@@ -27142,9 +27142,22 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _grid = require("antd/es/grid");
 function Grid() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Row), {
+        gutter: {
+            sm: 24,
+            md: 16,
+            lg: 16
+        },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Col), {
-                span: 4,
+                sm: {
+                    order: 3,
+                    span: 6,
+                    offset: 2
+                },
+                md: {
+                    order: 1,
+                    span: 4
+                },
                 style: {
                     "backgroundColor": "red"
                 },
@@ -27155,8 +27168,15 @@ function Grid() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Col), {
-                span: 6,
-                offset: 4,
+                sm: {
+                    order: 4,
+                    span: 9
+                },
+                md: {
+                    order: 2,
+                    span: 6,
+                    offset: 4
+                },
                 style: {
                     "backgroundColor": "blue"
                 },
@@ -27167,8 +27187,15 @@ function Grid() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Col), {
-                span: 2,
-                offset: 6,
+                sm: {
+                    order: 1,
+                    span: 12
+                },
+                md: {
+                    order: 3,
+                    span: 2,
+                    offset: 6
+                },
                 style: {
                     "backgroundColor": "black"
                 },
@@ -27179,8 +27206,15 @@ function Grid() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Col), {
-                span: 6,
-                offset: 4,
+                sm: {
+                    order: 5,
+                    span: 18
+                },
+                md: {
+                    order: 4,
+                    span: 6,
+                    offset: 4
+                },
                 style: {
                     "backgroundColor": "yellow"
                 },
@@ -27191,8 +27225,16 @@ function Grid() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Col), {
-                span: 8,
-                offset: 4,
+                sm: {
+                    order: 2,
+                    span: 6,
+                    offset: 6
+                },
+                md: {
+                    order: 5,
+                    span: 8,
+                    offset: 4
+                },
                 style: {
                     "backgroundColor": "green"
                 },
@@ -27203,8 +27245,16 @@ function Grid() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _grid.Col), {
-                span: 4,
-                offset: 12,
+                sm: {
+                    order: 6,
+                    span: 12,
+                    offset: 12
+                },
+                md: {
+                    order: 6,
+                    span: 4,
+                    offset: 10
+                },
                 style: {
                     "backgroundColor": "red"
                 },
