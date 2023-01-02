@@ -2,7 +2,7 @@ import { Row, Col } from "antd/es/grid";
 
 export function Grid() {
   return (
-    <Row>
+    <Row gutter={[16,16]}>
       <Col span={4} style={{"backgroundColor": "red"}}> 1 </Col>
       <Col span={6} offset={4} style={{"backgroundColor": "blue"}}> 2 </Col>
       <Col span={2} offset={6} style={{"backgroundColor": "black"}}> 3 </Col>
